@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: rgb(66, 174, 102);
+  }
+  .round {
+      border-radius: 50%;
+  }
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" class="round" style="width:350px ; height:150px">
+  <h1>The Web</h1>
+  
+</div>
+
+<!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#hef">The History, Evolution, and Future of the Web</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sase">Search algorithms and Search engines</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#wt">Web Technicalities</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="nav nav" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="pill" href="#hef">The History, Evolution, and Future of the Web</a>
+    </li>
+    <li class="nav-item"> 
+      <a class="nav-link" data-bs-toggle="pill" href="#sase">Search algorithms and Search engines</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#wt">Web Technicalities</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="pill" href="#ref">References</a>
+    </li>
+  </ul>
+</nav>
+<div class="tab-content">
+  <div id="hef" class="container tab-pane active"><br>
+    <h2>History</h2>
+      <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/NeXTcube_first_webserver.JPG/440px-NeXTcube_first_webserver.JPG"></div>
+      <p>Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN. He also developed
+        the foundations for the Web: HTTP, HTML, the WorldWideWeb browser, a server, and the first website 
+        for documentation.
+      </p>
+
+    <h2>Evolution</h2>
+      <div><img src="https://miro.medium.com/max/880/1*QWzSh_4CnUaK_UQFxrmGDA.jpeg"></div>
+      <p><i>The different versions of the Web overtime</i></p>
+      <p>The web underwent several changes as time passed, primarily security and privacy updates.
+        Especially because people have so much more and easier access to data nowadays, many try 
+        and take advantage of that to steal data and engage in other criminal activities.
+      </p>
+    
+    <h2 class="mt-5">Future</h2>
+      <div><img src="https://www.techexplorist.com/wp-content/uploads/2016/10/Future-Internet-696x391.jpg"></div>
+      <p>The web will definitely last very long, and it will evolve substantially in the coming decades. The web will soon be
+        characterized by devleopment technologies such as Quantum Computing, Accelerated Mobile Pages, Progressive Web Apps, 
+        Artificial Intelligence, Voice Search, Motion UI, and many more. 
+      </p>
+      <p></p>
+
+    
+  </div>
+  <div id="sase" class="container tab-pane fade"><br>
+    <h2>Search Engines</h2>
+      <div><img src="https://wildstonesolution.com/wp-content/uploads/2018/10/Search-Engine.jpg" style="width:350px ; height:200px"></div>
+      <p><i>Example search engines</i></p>
+      <p>Search engines are software systems that are designed to carry out web searches. They search through the World Wide Web in a systematic way 
+        for specific information noted in a textual web search query. The search results are usually seen through the search engine results pages, which
+        show a line of different results.
+      </p>
+
+    <h2>Search Algorithms</h2>
+      <div><img src="https://www.cs-ib.net/assets/img/graph-theory.png"></div>
+      <p><i>A graph of nodes that can be used to represent interconnected web pages (important for search algorithms)</i></p>
+      <p>Search algorithms in computer science are designed to search for a particular element from some kind of data structure. In the context of web
+        science, search algorithms will search using different aspects of web pages such as the time that a page has existed and the frequency of 
+        the search keywords on the page. PageRank and HITS are two very popular search algorithms. PageRank works by counting the number and quality 
+        of inlinks of a page to determine a rough estimate of how important the website is. For HITS, based on the idea that keywords are not everything 
+        that matters; there are sites that might be more relevant even if they don’t contain the most keywords. It introduces the idea of different types 
+        of pages, authorities and hubs. Search algorithms use complex graph theory for searching; all web pages are essentially nodes of a graph.
+      </p>
+    
+  </div>
+  <div id="wt" class="container tab-pane fade"><br>
+    <h2>Web Graphs</h2>
+    <div><img src="https://www.cs-ib.net/assets/img/graph-theory.png" style="width:350px ; height:200px"></div>
+    <p><i>Example graph</i></p>
+    <p>
+      Purposes:
+      <ul>
+        <li>Describe the directed links between pages of the World Wide Web.</li>
+      </ul>
+
+      Advantages:
+      <ul>
+        <li>Present information quickly and easily</li>
+        <li>Graphically represented data is usually easier to understand.</li>
+        <li>Calculations can be done with little or no software</li>
+      </ul>
+
+      Disadvantages:
+      <ul>
+        <li>Can oversimplyfy data.</li>
+        <li>Some queries may not do well in graph-oriented tasks (especially linear queries)</li>
+      </ul>
+
+      When Used:
+      <ul>
+        <li>Computing the PageRank of the WWW-pages.</li>
+        <li>Detecting web pages of similar topics through graph-theoretical properties only.</li>
+        <li>Identifying hubs and authorities in the web for the HITS algorithm.</li>
+      </ul>
+    </p>
+
+    <h2>Web Crawlers</h2>
+    <div><img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Web_Crawler.jpg" style="width:350px ; height:200px"></div>
+    <p>
+      Purposes:
+      <ul>
+        <li>Browses the web in a methodical and automated manner.</li>
+        <li>For each page it finds, a copy is downloaded and indexed. In this process it extracts all links 
+          from the given page and then repeats the same process for all found links.</li>
+      </ul>
+
+      Advantages:
+      <ul>
+        <li>Can extract data automatically from various competitors' websites without any hassle.</li>
+        <li>The crawl system should make efficient use of various system resources including processor, storage and network bandwidth.</li>
+      </ul>
+
+      Disadvantages:
+      <ul>
+        <li>They might look at meta data contained in the head of web pages, but this depends on the crawler</li>
+        <li>A crawler might not be able to read pages with dynamic content as they are very simple programs</li>
+      </ul>
+
+      When Used:
+      <ul>
+        <li>Used to traverse the web by downloading documents and following links from page to page.</li>
+        <li>It is a tool for the search engines and other information seekers to gather data for indexing and to enable them to keep their databases up to date.</li>
+      </ul>
+    </p>
+
+    <h2>Parallel Web Crawlers</h2>
+    <p>
+      Purposes:
+      <ul>
+        <li>Browses the web in a methodical and automated manner.</li>
+        <li>For each page it finds, a copy is downloaded and indexed. In this process it extracts all links 
+          from the given page and then repeats the same process for all found links.</li>
+      </ul>
+
+      Advantages:
+      <ul>
+        <li>Scalability: as the web grows a single process can not handle everything Multithreaded processing can solve the problem</li>
+        <li>Network load dispersion: as the web is geographically dispersed, dispersing crawlers disperses the network load</li>
+        <li>Network load reduction</li>
+      </ul>
+
+      Disadvantages:
+      <ul>
+        <li>Overlapping: parallel web crawlers might index the same page multiple times</li>
+        <li>Quality: If a crawler wants to download ‘important’ pages first, this might not work in a parallel process</li>
+        <li>Communication bandwidth: parallel crawlers need to communicate for the former reasons, which for many processes might 
+          take significant communication bandwidth</li>
+        <li>If parallel crawlers request the same page frequently over a short time it will overload servers</li>
+      </ul>
+
+      When Used:
+      <ul>
+        <li>Runs multiple processes in parallel.</li>
+        <li>Used to maximize the download rate while minimizing the overhead from parallelization and to avoid 
+          repeated downloads of the same page.</li>
+        <li>Identifying hubs and authorities in the web for the HITS algorithm.</li>
+      </ul>
+    </p>
+
+    <h2>Meta Tags</h2>
+    <p>
+      Purposes:
+      <ul>
+        <li>Meta tags are essentially little content descriptors that help tell search engines what a web page is about.</li>
+        <li>The title tag, not strictly a meta-tag, is what is shown in the results, through the indexer</li>
+      </ul>
+
+      Advantages:
+      <ul>
+        <li>A compelling meta description has the power to raise the click-through rate of your organic search results.</li>
+      </ul>
+
+      Disadvantages:
+      <ul>
+        <li>While meta-tags used to play a role in ranking, this has been overused by many pages and therefore 
+          meta-tags are not considered by most search engines anymore.
+        </li>
+        <li>A crawler might not be able to read pages with dynamic content as they are very simple programs</li>
+      </ul>
+
+      When Used:
+      <ul>
+        <li>Used to describe the content on a webpage.</li>
+        <li>helps search engines understand what it's about so you can show up in the relevant search results.</li>
+      </ul>
+    </p>
+
+    <h2>Robots.txt</h2>
+    <p><i>Example search engines</i></p>
+    <p>
+      Purposes:
+      <ul>
+        <li>A robots. txt file tells search engine crawlers which URLs the crawler can access on your site.</li>
+        <li>A robots.txt file contains instructions for bots that tell them which webpages they can and cannot access.</li>
+      </ul>
+
+      Advantages:
+      <ul>
+        <li>Index certain areas of the website or a whole website.</li>
+        <li>Index specific files on a website (images, videos, PDFs)</li>
+        <li>Prevent duplicate content pages from appearing in SERPs.</li>
+        <li>Index entire sections of a private website (for instance, your staging site or an employee site)</li>
+      </ul>
+
+      Disadvantages:
+      <ul>
+        <li>Robots.txt directives may not be supported by all search engines.</li>
+        <li>Different crawlers interpret syntax differently. Although respectable web crawlers follow the directives in a robots.</li>
+      </ul>
+
+      When Used:
+      <ul>
+        <li>Used mainly to avoid overloading your site with requests</li>
+        <li>Used to identify restricted or private areas of a site's contents.</li>
+      </ul>
+    </p>
+
+    <h2>Web Indexing</h2>
+    <div><img src="https://www.web-indexing.org/wp-content/uploads/2018/04/Web-Indexing.jpg" style="width:350px ; height:200px"></div>
+    <p>
+      Purposes:
+      <ul>
+        <li>Search engines index websites in order to respond to search queries with relevant information as quick as possible.</li>
+        <li>Indexing has the additional purpose of giving a page a certain weight, as described in the search algorithms. This 
+          way search results can be ranked, after being indexed.</li>
+      </ul>
+
+      Advantages:
+      <ul>
+        <li>Proper website indexing allows search engines to see all of your important pages and gives your site a major boost.</li>
+        <li>Ensure that filed papers are located easily and quickly whenever they are needed.</li>
+      </ul>
+
+      Disadvantages:
+      <ul>
+        <li>Since Indexes physically take up space on the Disk, using the Index will increase the extra disk cost unless necessary.</li>
+        <li>In general, indexes improve performance in our Select queries and slow down DML (insert, update, delete) operations.</li>
+      </ul>
+
+      When Used:
+      <ul>
+        <li>A search index is a body of structured data that a search engine refers to when looking for results that are relevant to a specific query.</li>
+        <li>Detecting web pages of similar topics through graph-theoretical properties only.</li>
+      </ul>
+    </p>
+
+
+
+  </div>
+  <div id="ref" class="container tab-pane fade"><br>
+    <h3>References</h3>
+    <ul>
+      <li>https://www.cs-ib.net/sections/C-02-search-the-web.html</li>
+      <li>https://wildstonesolution.com/top-search-engines/</li>
+      <li>https://alexander-belikov.github.io/post/2021-wos-arango-sql/</li>
+      <li>https://netsmartz.com/the-importance-of-robots-txt/</li>
+      <li>https://www.web-indexing.org/the-basic-web-indexing-introduction/</li>
+
+    </ul>
+  </div>
+</div>
+
+
+<div class="mt-5 p-4 bg-light text-black text-left">
+  <h1>Sign up to receive notifications about new content!</h1>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> I would like to receive notifications
+      </label>
+    </div>
+    <button type="button" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h2>Contact the content creators right below</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sudharsan</td>
+        <td>Gopalakrishnan</td>
+        <td>example@web.com</td>
+      </tr>
+      <tr>
+        <td>Example First Name</td>
+        <td>Example Last Name</td>
+        <td>example2@web.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <h1> Apple MackBook Pro 25% OFF !!</h1>
+  <img src="https://www.apple.com/v/macbook-pro-14-and-16/b/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png" class="round" style="width:150; height:200px;">
+  <p>Apple has recently released sales for their MacBook Pro laptops for this May.</p>
+</div>
+
+</body>
+</html>
+
