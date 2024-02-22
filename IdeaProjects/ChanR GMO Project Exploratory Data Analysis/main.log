@@ -1,0 +1,912 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.13)  5 AUG 2021 17:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks16
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+)
+(/Users/sudharsangopalakrishnan/IdeaProjects/ChanR GMO Project Exploratory Data
+ Analysis/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count266
+\scratchdimen=\dimen150
+\scratchbox=\box50
+\nofMPsegments=\count267
+\nofMParguments=\count268
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count269
+\MPscratchDim=\dimen151
+\MPnumerator=\count270
+\makeMPintoPDFobject=\count271
+\everyMPtoPDFconversion=\toks22
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
+ty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)) [1
+
+{/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./main.tex:39: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.39     \vspace{5}
+                   
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+<ChanR EDA/q1.png, id=10, 356.33125pt x 247.92625pt>
+./main.tex:65: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.65 ... \includegraphics[width=200]{ChanR EDA/q1}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:65: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.65 ... \includegraphics[width=200]{ChanR EDA/q1}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q1.png Graphic file (type png)
+<use ChanR EDA/q1.png>
+Package pdftex.def Info: ChanR EDA/q1.png  used on input line 65.
+(pdftex.def)             Requested size: 200.0pt x 139.15552pt.
+[1 <./ChanR EDA/q1.png>]
+<ChanR EDA/q3.png, id=17, 419.5675pt x 247.92625pt>
+
+./main.tex:71: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.71 ... \includegraphics[width=250]{ChanR EDA/q3}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:71: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.71 ... \includegraphics[width=250]{ChanR EDA/q3}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q3.png Graphic file (type png)
+<use ChanR EDA/q3.png>
+Package pdftex.def Info: ChanR EDA/q3.png  used on input line 71.
+(pdftex.def)             Requested size: 250.0pt x 147.7279pt.
+<ChanR EDA/q4.png, id=18, 404.51125pt x 247.92625pt>
+./main.tex:76: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.76 ... \includegraphics[width=220]{ChanR EDA/q4}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:76: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.76 ... \includegraphics[width=220]{ChanR EDA/q4}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q4.png Graphic file (type png)
+<use ChanR EDA/q4.png>
+Package pdftex.def Info: ChanR EDA/q4.png  used on input line 76.
+(pdftex.def)             Requested size: 220.0pt x 134.83907pt.
+<ChanR EDA/q5.png, id=19, 457.71pt x 247.92625pt>
+./main.tex:81: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.81 ... \includegraphics[width=270]{ChanR EDA/q5}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:81: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.81 ... \includegraphics[width=270]{ChanR EDA/q5}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q5.png Graphic file (type png)
+<use ChanR EDA/q5.png>
+Package pdftex.def Info: ChanR EDA/q5.png  used on input line 81.
+(pdftex.def)             Requested size: 270.0pt x 146.2563pt.
+[2 <./ChanR EDA/q3.png> <./ChanR EDA/q4.png> <./ChanR EDA/q5.png>]
+<ChanR EDA/q6.png, id=26, 542.025pt x 247.92625pt>
+
+./main.tex:87: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.87 ... \includegraphics[width=300]{ChanR EDA/q6}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:87: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.87 ... \includegraphics[width=300]{ChanR EDA/q6}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q6.png Graphic file (type png)
+<use ChanR EDA/q6.png>
+Package pdftex.def Info: ChanR EDA/q6.png  used on input line 87.
+(pdftex.def)             Requested size: 300.0pt x 137.22617pt.
+<ChanR EDA/q7.png, id=27, 392.46625pt x 247.92625pt>
+./main.tex:92: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.92 ... \includegraphics[width=200]{ChanR EDA/q7}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:92: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.92 ... \includegraphics[width=200]{ChanR EDA/q7}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q7.png Graphic file (type png)
+<use ChanR EDA/q7.png>
+Package pdftex.def Info: ChanR EDA/q7.png  used on input line 92.
+(pdftex.def)             Requested size: 200.0pt x 126.34613pt.
+
+./main.tex:95: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95     \item{
+               Question 8: Are Non-GMO labels used properly on commercial fo...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 95
+[][]
+ []
+
+<ChanR EDA/q8.png, id=28, 413.545pt x 247.92625pt>
+./main.tex:97: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.97 ... \includegraphics[width=200]{ChanR EDA/q8}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:97: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.97 ... \includegraphics[width=200]{ChanR EDA/q8}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q8.png Graphic file (type png)
+<use ChanR EDA/q8.png>
+Package pdftex.def Info: ChanR EDA/q8.png  used on input line 97.
+(pdftex.def)             Requested size: 200.0pt x 119.90361pt.
+[3 <./ChanR EDA/q6.png> <./ChanR EDA/q7.png> <./ChanR EDA/q8.png>]
+
+./main.tex:102: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102     \item{
+                Question 9: Organic food is proved to be safer than GMOs.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 102
+[][]
+ []
+
+<ChanR EDA/q9.png, id=35, 311.1625pt x 247.92625pt>
+./main.tex:104: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.104 ...\includegraphics[width=170]{ChanR EDA/q9}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:104: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.104 ...\includegraphics[width=170]{ChanR EDA/q9}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q9.png Graphic file (type png)
+<use ChanR EDA/q9.png>
+Package pdftex.def Info: ChanR EDA/q9.png  used on input line 104.
+(pdftex.def)             Requested size: 170.0pt x 135.45192pt.
+
+./main.tex:107: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107     \item{
+                Question 10: GMOs are purely artificial.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 107
+[][]
+ []
+
+<ChanR EDA/q10.png, id=36, 231.86626pt x 247.92625pt>
+./main.tex:109: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.109 ...includegraphics[width=150]{ChanR EDA/q10}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:109: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.109 ...includegraphics[width=150]{ChanR EDA/q10}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q10.png Graphic file (type png)
+<use ChanR EDA/q10.png>
+Package pdftex.def Info: ChanR EDA/q10.png  used on input line 109.
+(pdftex.def)             Requested size: 150.0pt x 160.39354pt.
+[4 <./ChanR EDA/q9.png> <./ChanR EDA/q10.png>]
+
+./main.tex:113: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113     \item{
+                Question 11: GMOs are a novel aspect of today.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 113
+[][]
+ []
+
+<ChanR EDA/q11.png, id=42, 251.94125pt x 247.92625pt>
+./main.tex:115: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.115 ...includegraphics[width=150]{ChanR EDA/q11}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:115: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.115 ...includegraphics[width=150]{ChanR EDA/q11}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q11.png Graphic file (type png)
+<use ChanR EDA/q11.png>
+Package pdftex.def Info: ChanR EDA/q11.png  used on input line 115.
+(pdftex.def)             Requested size: 150.0pt x 147.61063pt.
+
+./main.tex:118: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118     \item{
+                Question 12: GMOs are very common in the world today.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[][]
+ []
+
+<ChanR EDA/q12.png, id=43, 300.12125pt x 247.92625pt>
+./main.tex:120: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.120 ...includegraphics[width=170]{ChanR EDA/q12}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:120: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.120 ...includegraphics[width=170]{ChanR EDA/q12}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q12.png Graphic file (type png)
+<use ChanR EDA/q12.png>
+Package pdftex.def Info: ChanR EDA/q12.png  used on input line 120.
+(pdftex.def)             Requested size: 170.0pt x 140.43797pt.
+
+./main.tex:123: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123     \item{
+                Question 13: GMOs can be pest resistant and can therefore re...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 123
+[][]
+ []
+
+<ChanR EDA/q13.png, id=44, 529.98pt x 247.92625pt>
+./main.tex:125: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.125 ...includegraphics[width=270]{ChanR EDA/q13}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:125: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.125 ...includegraphics[width=270]{ChanR EDA/q13}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q13.png Graphic file (type png)
+<use ChanR EDA/q13.png>
+Package pdftex.def Info: ChanR EDA/q13.png  used on input line 125.
+(pdftex.def)             Requested size: 270.0pt x 126.3083pt.
+[5 <./ChanR EDA/q11.png> <./ChanR EDA/q12.png> <./ChanR EDA/q13.png>]
+
+./main.tex:129: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129     \item{
+                Question 14: GMOs are more harmful than beneficial.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 129
+[][]
+ []
+
+<ChanR EDA/q14.png, id=51, 280.04625pt x 247.92625pt>
+./main.tex:131: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.131 ...includegraphics[width=170]{ChanR EDA/q14}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:131: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.131 ...includegraphics[width=170]{ChanR EDA/q14}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q14.png Graphic file (type png)
+<use ChanR EDA/q14.png>
+Package pdftex.def Info: ChanR EDA/q14.png  used on input line 131.
+(pdftex.def)             Requested size: 170.0pt x 150.50844pt.
+
+./main.tex:134: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134     \item{
+                Question 15: GMOs have lowered the level of responsibility o...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 134
+[][]
+ []
+
+<ChanR EDA/q15.png, id=52, 578.16pt x 247.92625pt>
+./main.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.136 ...includegraphics[width=300]{ChanR EDA/q15}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:136: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.136 ...includegraphics[width=300]{ChanR EDA/q15}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q15.png Graphic file (type png)
+<use ChanR EDA/q15.png>
+Package pdftex.def Info: ChanR EDA/q15.png  used on input line 136.
+(pdftex.def)             Requested size: 300.0pt x 128.64622pt.
+
+./main.tex:139: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.139     \item{
+                Question 16: GMO consumption can cause autism and obesity.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 139
+[][]
+ []
+
+<ChanR EDA/q16.png, id=53, 336.25626pt x 247.92625pt>
+./main.tex:141: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.141 ...includegraphics[width=200]{ChanR EDA/q16}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:141: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.141 ...includegraphics[width=200]{ChanR EDA/q16}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q16.png Graphic file (type png)
+<use ChanR EDA/q16.png>
+Package pdftex.def Info: ChanR EDA/q16.png  used on input line 141.
+(pdftex.def)             Requested size: 200.0pt x 147.46309pt.
+
+./main.tex:145: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145     \item{
+                Question 17: Since the arrival of GMOs have increased the us...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 145
+[][]
+ []
+
+[6 <./ChanR EDA/q14.png> <./ChanR EDA/q15.png> <./ChanR EDA/q16.png>]
+<ChanR EDA/q17.png, id=61, 927.465pt x 247.92625pt>
+
+./main.tex:147: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.147 ...includegraphics[width=450]{ChanR EDA/q17}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:147: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.147 ...includegraphics[width=450]{ChanR EDA/q17}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q17.png Graphic file (type png)
+<use ChanR EDA/q17.png>
+Package pdftex.def Info: ChanR EDA/q17.png  used on input line 147.
+(pdftex.def)             Requested size: 450.0pt x 120.29326pt.
+
+Overfull \hbox (90.0pt too wide) in paragraph at lines 147--148
+ [] 
+ []
+
+
+./main.tex:150: LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150     \item{
+                Question 18: Are GMOs a solution to issues regarding food su...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 150
+[][]
+ []
+
+<ChanR EDA/q18.png, id=62, 402.50375pt x 247.92625pt>
+./main.tex:152: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.152 ...includegraphics[width=200]{ChanR EDA/q18}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./main.tex:152: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.152 ...includegraphics[width=200]{ChanR EDA/q18}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: ChanR EDA/q18.png Graphic file (type png)
+<use ChanR EDA/q18.png>
+Package pdftex.def Info: ChanR EDA/q18.png  used on input line 152.
+(pdftex.def)             Requested size: 200.0pt x 123.19107pt.
+[7 <./ChanR EDA/q17.png> <./ChanR EDA/q18.png>]
+(/Users/sudharsangopalakrishnan/IdeaProjects/ChanR GMO Project Exploratory Data
+ Analysis/main.aux) ) 
+Here is how much of TeX's memory you used:
+ 2419 strings out of 480445
+ 33768 string characters out of 5892391
+ 324008 words of memory out of 5000000
+ 19694 multiletter control sequences out of 15000+600000
+ 406308 words of font info for 37 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 68i,5n,74p,221b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021basic/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on "/Users/sudharsangopalakrishnan/IdeaProjects/ChanR GMO Projec
+t Exploratory Data Analysis/main.pdf" (8 pages, 201596 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+
